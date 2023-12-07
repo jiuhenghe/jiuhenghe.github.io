@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Interview by CNN: <a href='https://www.cnn.com/2023/03/24/asia/ai-disruption-go-sport-hnk-intl-dst/index.html'>How AI turned the ancient sport of Go upside down</a>
