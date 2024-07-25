@@ -7,7 +7,7 @@ subtitle: <a href='https://sts.cornell.edu/'>Department of Science and Technolog
 
 profile:
   align: right
-  image: JiuhengHe.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>410 Morrill Hall</p>
