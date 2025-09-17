@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://sts.cornell.edu/'>Department of Science and Technology Studies</a>, Cornell University <p>jh2666@cornell.edu<p>
+subtitle: <a href='https://shanghai.nyu.edu/content/interactive-media-and-business'>Interative Media and Business</a>, New York University Shanghai <p>jh10436@nyu.edu<p>
 
 
 profile:
@@ -10,9 +10,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>410 Morrill Hall</p>
-    <p>Cornell University</p>
-    <p>Ithaca, NY</p>
+    <p>N840</p>
+    <p>New York University Shanghai</p>
+    <p>Shanghai, China</p>
 
 news: true # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
