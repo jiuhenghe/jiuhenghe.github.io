@@ -1,0 +1,473 @@
+Running `bundle install --verbose` with bundler 2.4.10
+Found changes from the lockfile, re-resolving dependencies because the dependencies in your gemfile changed, you added a new platform to your gemfile
+HTTP GET https://index.rubygems.org/versions
+HTTP 206 Partial Content https://index.rubygems.org/versions
+Fetching gem metadata from https://rubygems.org/
+Looking up gems ["classifier-reborn", "jekyll", "jekyll-archives", "jekyll-diagrams", "jekyll-email-protect", "jekyll-feed", "jekyll-get-json", "jekyll-imagemagick", "jekyll-jupyter-notebook", "jekyll-link-attributes", "jekyll-minifier", "jekyll-paginate-v2", "jekyll-scholar", "jekyll-sitemap", "jekyll-toc", "jekyll-twitter-plugin", "jemoji", "mini_racer", "unicode_utils", "webrick", "feedjira", "httparty"]
+Looking up gems ["fast-stemmer", "matrix", "liquid-diagrams", "deep_merge", "addressable", "classifier", "directory_watcher", "liquid", "maruku", "open4", "RedCloth", "rdiscount", "albino", "kramdown", "pygments.rb", "commander", "safe_yaml", "colorator", "redcarpet", "listen", "toml", "jekyll-coffeescript", "mercenary", "sass", "jekyll-sass-converter", "jekyll-gist", "jekyll-paginate", "jekyll-watch", "rouge", "pathutil", "em-websocket", "i18n", "kramdown-parser-gfm", "terminal-table", "csv", "base64", "json", "fastimage", "htmlcompressor", "yui-compressor", "cssminify", "uglifier", "cssminify2", "json-minify", "terser", "twitter", "nokogiri", "gemoji", "html-pipeline", "activesupport", "curb", "loofah", "sax-machine", "faraday", "faraday_middleware", "logger", "bibtex-ruby", "citeproc-ruby", "csl-styles", "libv8", "libv8-node", "jnunemaker-crack", "crack", "multi_json", "multi_xml", "mime-types", "mini_mime"]
+Looking up gems ["hoe", "bigdecimal", "strscan", "rake", "rspec", "public_suffix", "stemmer", "mathn", "mutex_m", "syntax", "posix-spawn", "rexml", "rubypython", "yajl-ruby", "psych", "highline", "rb-fchange", "rb-fsevent", "rb-inotify", "rb-kqueue", "celluloid", "celluloid-io", "ruby_dep", "sassc", "sass-embedded", "parslet", "coffee-script", "coffee-script-source", "sass-listen", "octokit", "forwardable-extended", "thor", "concurrent-ruby", "racc", "unicode-display_width", "eventmachine", "http_parser.rb", "stringio", "bundler", "simple_oauth", "buftok", "http", "descendants_tracker", "equalizer", "memoizable", "naught", "http-form_data", "multipart-post", "llhttp-ffi", "POpen4", "weakling", "mini_portile", "mini_portile2", "pkg-config", "therubyracer", "execjs", "builder", "memcache-client", "tzinfo", "minitest", "thread_safe", "method_source", "zeitwerk", "connection_pool", "drb", "securerandom", "benchmark", "uri", "escape_utils", "github-linguist", "github-markdown", "rinku", "sanitize", "selma", "crass", "latex-decode", "csl", "hashie", "oauth2", "roauth", "rack", "ruby2_keywords", "faraday-net_http", "faraday-excon", "faraday-net_http_persistent", "faraday-em_http", "faraday-em_synchrony", "faraday-httpclient", "faraday-patron", "faraday-rack", "faraday-multipart", "faraday-retry", "logging", "citeproc", "observer", "mime-types-data"]
+Looking up gems ["rspec-core", "rspec-expectations", "rspec-mocks", "cmath", "rubyforge", "RubyInline", "gemcutter", "termios", "abbrev", "reline", "blankslate", "ffi", "jar-dependencies", "date", "win32-api", "timers", "facter", "celluloid-essentials", "celluloid-extras", "celluloid-fsm", "celluloid-pool", "celluloid-supervision", "dotenv", "nenv", "rspec-logsplit", "nio4r", "rash", "netrc", "sawyer", "google-protobuf", "functional-ruby", "ref", "unicode-emoji", "certified", "form_data", "http-cookie", "http-parser", "llhttp", "adamantium", "backports", "Platform", "win32-open3", "ffi-compiler", "net-ftp", "atomic", "ZenTest", "ruby_parser", "charlock_holmes", "rugged", "cgi", "hpricot", "htmlentities", "nokogumbo", "namae", "forwardable", "open-uri", "set", "singleton", "time", "rb_sys", "faraday-middleware", "httpauth", "jwt", "rash_alt", "version_gem", "snaky_hash", "unicode", "em-http-request", "net-http", "httpclient", "excon", "patron", "net-http-persistent", "flexmock", "lockfile", "little-plugger"]
+Looking up gems ["diff-lcs", "rspec-support", "net-scp", "json_pure", "io-console", "ruby-maven", "test-unit", "coveralls", "rubocop", "celluloid-gems", "CFPropertyList", "sys-admin", "win32console", "win32-dir", "windows-api", "windows-pr", "win32-security", "hocon", "sys-filesystem", "hitimes", "dotenv-deployment", "unicode-version", "uri_template", "domain_name", "sqlite3", "ice_nine", "ParseTree", "sexp_processor", "net-protocol", "rubysl", "rake-compiler-dock", "em-socksify", "cookiejar"]
+Looking up gems ["power_assert", "net-ssh", "colorize", "rest-client", "simplecov", "term-ansicolor", "tins", "maven-tools", "ruby-maven-libs", "spruz", "rainbow", "parser", "powerpack", "ruby-progressbar", "astrolabe", "parallel", "jaro_winkler", "rubocop-ast", "regexp_parser", "language_server-protocol", "lint_roller", "tsort", "libxml-ruby", "nkf", "ffi-win32-extensions", "configuration", "mkrf", "unf", "mkmf-lite", "SexpProcessor", "io-wait", "timeout", "rubysl-abbrev", "rubysl-base64", "rubysl-benchmark", "rubysl-bigdecimal", "rubysl-cgi", "rubysl-cgi-session", "rubysl-complex", "rubysl-csv", "rubysl-curses", "rubysl-date", "rubysl-delegate", "rubysl-digest", "rubysl-dl", "rubysl-drb", "rubysl-e2mmap", "rubysl-english", "rubysl-enumerator", "rubysl-erb", "rubysl-etc", "rubysl-expect", "rubysl-fcntl", "rubysl-fileutils", "rubysl-find", "rubysl-forwardable", "rubysl-ftools", "rubysl-generator", "rubysl-getoptlong", "rubysl-gserver", "rubysl-iconv", "rubysl-io-wait", "rubysl-ipaddr", "rubysl-irb", "rubysl-jcode", "rubysl-logger", "rubysl-mail", "rubysl-mathn", "rubysl-matrix", "rubysl-mkmf", "rubysl-monitor", "rubysl-mutex", "rubysl-mutex_m", "rubysl-net-ftp", "rubysl-net-http", "rubysl-net-imap", "rubysl-net-pop", "rubysl-net-protocol", "rubysl-net-smtp", "rubysl-net-telnet", "rubysl-nkf", "rubysl-observer", "rubysl-open3", "rubysl-openssl", "rubysl-open-uri", "rubysl-optparse", "rubysl-ostruct", "rubysl-parsedate", "rubysl-pathname", "rubysl-prettyprint", "rubysl-profile", "rubysl-profiler", "rubysl-pstore", "rubysl-pty", "rubysl-rational", "rubysl-readbytes", "rubysl-readline", "rubysl-resolv", "rubysl-rexml", "rubysl-rinda", "rubysl-rss", "rubysl-scanf", "rubysl-set", "rubysl-shellwords", "rubysl-singleton", "rubysl-soap", "rubysl-socket", "rubysl-stringio", "rubysl-strscan", "rubysl-syck", "rubysl-sync", "rubysl-syslog", "rubysl-tempfile", "rubysl-test-unit", "rubysl-thread", "rubysl-thwait", "rubysl-time", "rubysl-timeout", "rubysl-tmpdir", "rubysl-tracer", "rubysl-tsort", "rubysl-un", "rubysl-uri", "rubysl-weakref", "rubysl-webrick", "rubysl-win32api", "rubysl-win32ole", "rubysl-xmlrpc", "rubysl-yaml", "rubysl-zlib", "rubysl-cmath", "rubysl-continuation", "rubysl-coverage", "rubysl-fiber", "rubysl-io-console", "rubysl-io-nonblock", "rubysl-json", "rubysl-prime", "rubysl-ripper", "rubysl-securerandom", "rubysl-unicode_normalize"]
+Looking up gems ["pattern-match", "sync", "mize", "needle", "jruby-pageant", "bcrypt_pbkdf", "rbnacl", "rbnacl-libsodium", "simplecov-html", "docile", "simplecov_json_formatter", "virtus", "rdoc", "http-accept", "ast", "slop", "prism", "ptools", "memoist", "unf_ext", "redcard", "ffi2-generators", "rb-readline"]
+Looking up gems ["protocol", "erb", "axiom-types", "coercible", "win32-file"]
+Looking up gems ["win32-file-stat"]
+Resolving dependencies...
+Fetching rake 13.3.1
+Installing rake 13.3.1
+0:  rake (13.3.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/rake-13.3.1.gemspec
+Fetching json 2.15.2
+Fetching logger 1.7.0
+Fetching minitest 5.26.0
+Fetching base64 0.3.0
+Fetching bigdecimal 3.3.1
+Fetching concurrent-ruby 1.3.5
+Fetching connection_pool 2.5.4
+Fetching drb 2.2.3
+Installing base64 0.3.0
+0:  base64 (0.3.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/base64-0.3.0.gemspec
+Fetching securerandom 0.4.1
+Installing connection_pool 2.5.4
+3:  connection_pool (2.5.4) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/connection_pool-2.5.4.gemspec
+Fetching uri 1.1.1
+Installing drb 2.2.3
+Installing logger 1.7.0
+7:  logger (1.7.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/logger-1.7.0.gemspec
+6:  drb (2.2.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/drb-2.2.3.gemspec
+Fetching public_suffix 6.0.2
+Fetching latex-decode 0.4.0
+Installing bigdecimal 3.3.1 with native extensions
+Building native extensions. This could take a while...
+Installing json 2.15.2 with native extensions
+Installing minitest 5.26.0
+Building native extensions. This could take a while...
+4:  minitest (5.26.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/minitest-5.26.0.gemspec
+Fetching racc 1.8.1
+Installing securerandom 0.4.1
+0:  securerandom (0.4.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/securerandom-0.4.1.gemspec
+Using bundler 2.4.10
+0:  bundler (2.4.10) from /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/specifications/default/bundler-2.4.10.gemspec
+Fetching date 3.5.0
+Installing latex-decode 0.4.0
+6:  latex-decode (0.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/latex-decode-0.4.0.gemspec
+Using forwardable 1.3.3
+6:  forwardable (1.3.3) from /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/specifications/default/forwardable-1.3.3.gemspec
+Fetching observer 0.1.2
+Installing concurrent-ruby 1.3.5
+Installing uri 1.1.1
+1:  concurrent-ruby (1.3.5) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/concurrent-ruby-1.3.5.gemspec
+Fetching stringio 3.1.7
+3:  uri (1.1.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/uri-1.1.1.gemspec
+Fetching rexml 3.4.4
+Installing public_suffix 6.0.2
+7:  public_suffix (6.0.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/public_suffix-6.0.2.gemspec
+Fetching set 1.1.2
+Installing racc 1.8.1 with native extensions
+Building native extensions. This could take a while...
+Installing set 1.1.2
+7:  set (1.1.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/set-1.1.2.gemspec
+Fetching singleton 0.3.0
+Installing date 3.5.0 with native extensions
+Building native extensions. This could take a while...
+Installing rexml 3.4.4
+3:  rexml (3.4.4) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/rexml-3.4.4.gemspec
+Fetching fast-stemmer 1.0.2
+4:  racc (1.8.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/racc-1.8.1.gemspec
+Fetching matrix 0.4.3
+Installing singleton 0.3.0
+7:  singleton (0.3.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/singleton-0.3.0.gemspec
+Fetching colorator 1.1.0
+Installing observer 0.1.2
+6:  observer (0.1.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/observer-0.1.2.gemspec
+Fetching crass 1.0.6
+Installing colorator 1.1.0
+7:  colorator (1.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/colorator-1.1.0.gemspec
+Fetching cssminify2 2.1.0
+Installing matrix 0.4.3
+4:  matrix (0.4.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/matrix-0.4.3.gemspec
+Fetching csv 3.3.5
+Installing crass 1.0.6
+6:  crass (1.0.6) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/crass-1.0.6.gemspec
+Fetching deep_merge 1.2.2
+Installing stringio 3.1.7 with native extensions
+Building native extensions. This could take a while...
+Installing deep_merge 1.2.2
+6:  deep_merge (1.2.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/deep_merge-1.2.2.gemspec
+Fetching eventmachine 1.2.7
+Installing csv 3.3.5
+Installing fast-stemmer 1.0.2 with native extensions
+Building native extensions. This could take a while...
+Installing cssminify2 2.1.0
+4:  csv (3.3.5) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/csv-3.3.5.gemspec
+Fetching http_parser.rb 0.8.0
+7:  cssminify2 (2.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/cssminify2-2.1.0.gemspec
+Fetching execjs 2.10.0
+1:  stringio (3.1.7) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/stringio-3.1.7.gemspec
+Fetching sax-machine 1.3.2
+Installing eventmachine 1.2.7 with native extensions
+Installing execjs 2.10.0
+7:  execjs (2.10.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/execjs-2.10.0.gemspec
+Fetching ffi 1.17.2 (arm64-darwin)
+Building native extensions. This could take a while...
+3:  fast-stemmer (1.0.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/fast-stemmer-1.0.2.gemspec
+Fetching forwardable-extended 2.6.0
+Installing sax-machine 1.3.2
+1:  sax-machine (1.3.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/sax-machine-1.3.2.gemspec
+Fetching gemoji 4.1.0
+Installing forwardable-extended 2.6.0
+3:  forwardable-extended (2.6.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/forwardable-extended-2.6.0.gemspec
+Fetching htmlcompressor 0.4.0
+Installing gemoji 4.1.0
+1:  gemoji (4.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/gemoji-4.1.0.gemspec
+Fetching mini_mime 1.1.5
+Installing htmlcompressor 0.4.0
+Installing http_parser.rb 0.8.0 with native extensions
+3:  htmlcompressor (0.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/htmlcompressor-0.4.0.gemspec
+Fetching rb-fsevent 0.11.2
+Building native extensions. This could take a while...
+Installing mini_mime 1.1.5
+1:  mini_mime (1.1.5) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/mini_mime-1.1.5.gemspec
+Fetching liquid 4.0.4
+5:  json (2.15.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/json-2.15.2.gemspec
+Fetching mercenary 0.4.0
+Installing liquid 4.0.4
+1:  liquid (4.0.4) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/liquid-4.0.4.gemspec
+Fetching rouge 4.6.1
+Installing mercenary 0.4.0
+5:  mercenary (0.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/mercenary-0.4.0.gemspec
+Fetching safe_yaml 1.0.5
+Installing rb-fsevent 0.11.2
+3:  rb-fsevent (0.11.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/rb-fsevent-0.11.2.gemspec
+Fetching unicode-display_width 2.6.0
+Installing safe_yaml 1.0.5
+4:  http_parser.rb (0.8.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/http_parser.rb-0.8.0.gemspec
+Fetching webrick 1.9.1
+5:  safe_yaml (1.0.5) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/safe_yaml-1.0.5.gemspec
+Fetching jekyll-email-protect 1.1.0
+2:  bigdecimal (3.3.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/bigdecimal-3.3.1.gemspec
+Fetching jekyll-link-attributes 1.0.1
+Installing unicode-display_width 2.6.0
+3:  unicode-display_width (2.6.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/unicode-display_width-2.6.0.gemspec
+Fetching jekyll-twitter-plugin 2.1.0
+Installing jekyll-email-protect 1.1.0
+Installing jekyll-link-attributes 1.0.1
+5:  jekyll-email-protect (1.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-email-protect-1.1.0.gemspec
+Fetching libv8-node 24.1.0.0 (arm64-darwin)
+2:  jekyll-link-attributes (1.0.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-link-attributes-1.0.1.gemspec
+Fetching unicode_utils 1.4.0
+Installing rouge 4.6.1
+1:  rouge (4.6.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/rouge-4.6.1.gemspec
+Fetching i18n 1.14.7
+Installing webrick 1.9.1
+4:  webrick (1.9.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/webrick-1.9.1.gemspec
+Fetching tzinfo 2.0.6
+Installing i18n 1.14.7
+1:  i18n (1.14.7) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/i18n-1.14.7.gemspec
+Fetching addressable 2.8.7
+Installing unicode_utils 1.4.0
+Installing tzinfo 2.0.6
+0:  date (3.5.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/date-3.5.0.gemspec
+Fetching kramdown 2.5.1
+2:  unicode_utils (1.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/unicode_utils-1.4.0.gemspec
+Fetching bibtex-ruby 6.2.0
+4:  tzinfo (2.0.6) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/tzinfo-2.0.6.gemspec
+Fetching namae 1.2.0
+Installing addressable 2.8.7
+1:  addressable (2.8.7) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/addressable-2.8.7.gemspec
+Fetching nokogiri 1.18.10 (arm64-darwin)
+Installing namae 1.2.0
+4:  namae (1.2.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/namae-1.2.0.gemspec
+Fetching terser 1.2.6
+Installing bibtex-ruby 6.2.0
+Installing kramdown 2.5.1
+2:  bibtex-ruby (6.2.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/bibtex-ruby-6.2.0.gemspec
+Fetching classifier-reborn 2.3.0
+0:  kramdown (2.5.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/kramdown-2.5.1.gemspec
+Fetching pathutil 0.16.2
+Installing terser 1.2.6
+4:  terser (1.2.6) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/terser-1.2.6.gemspec
+Fetching json-minify 0.0.3
+Installing classifier-reborn 2.3.0
+2:  classifier-reborn (2.3.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/classifier-reborn-2.3.0.gemspec
+Fetching google-protobuf 4.33.0 (arm64-darwin)
+Installing pathutil 0.16.2
+0:  pathutil (0.16.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/pathutil-0.16.2.gemspec
+Fetching multi_xml 0.7.2
+Installing ffi 1.17.2 (arm64-darwin)
+7:  ffi (1.17.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/ffi-1.17.2-arm64-darwin.gemspec
+Fetching terminal-table 3.0.2
+Installing multi_xml 0.7.2
+0:  multi_xml (0.7.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/multi_xml-0.7.2.gemspec
+Fetching time 0.4.1
+Installing json-minify 0.0.3
+4:  json-minify (0.0.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/json-minify-0.0.3.gemspec
+Fetching activesupport 8.1.1
+Installing terminal-table 3.0.2
+7:  terminal-table (3.0.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/terminal-table-3.0.2.gemspec
+Fetching kramdown-parser-gfm 1.1.0
+Installing time 0.4.1
+0:  time (0.4.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/time-0.4.1.gemspec
+Fetching rb-inotify 0.11.1
+Installing kramdown-parser-gfm 1.1.0
+7:  kramdown-parser-gfm (1.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/kramdown-parser-gfm-1.1.0.gemspec
+Fetching httparty 0.23.2
+Installing rb-inotify 0.11.1
+0:  rb-inotify (0.11.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/rb-inotify-0.11.1.gemspec
+Fetching open-uri 0.5.0
+Installing open-uri 0.5.0
+0:  open-uri (0.5.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/open-uri-0.5.0.gemspec
+Fetching listen 3.9.0
+Installing httparty 0.23.2
+When you HTTParty, you must party hard!
+7:  httparty (0.23.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/httparty-0.23.2.gemspec
+Fetching citeproc 1.1.0
+Installing jekyll-twitter-plugin 2.1.0
+3:  jekyll-twitter-plugin (2.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-twitter-plugin-2.1.0.gemspec
+Fetching csl 2.2.1
+Installing activesupport 8.1.1
+Installing listen 3.9.0
+0:  listen (3.9.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/listen-3.9.0.gemspec
+Fetching jekyll-watch 2.2.1
+Installing citeproc 1.1.0
+7:  citeproc (1.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/citeproc-1.1.0.gemspec
+4:  activesupport (8.1.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/activesupport-8.1.1.gemspec
+Installing csl 2.2.1
+3:  csl (2.2.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/csl-2.2.1.gemspec
+Fetching citeproc-ruby 2.1.3
+Fetching csl-styles 2.0.1
+Installing jekyll-watch 2.2.1
+0:  jekyll-watch (2.2.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-watch-2.2.1.gemspec
+Installing citeproc-ruby 2.1.3
+4:  citeproc-ruby (2.1.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/citeproc-ruby-2.1.3.gemspec
+Installing google-protobuf 4.33.0 (arm64-darwin)
+2:  google-protobuf (4.33.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/google-protobuf-4.33.0-arm64-darwin.gemspec
+Fetching sass-embedded 1.93.3 (arm64-darwin)
+Installing nokogiri 1.18.10 (arm64-darwin)
+1:  nokogiri (1.18.10) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/nokogiri-1.18.10-arm64-darwin.gemspec
+Fetching loofah 2.24.1
+Fetching html-pipeline 2.14.3
+Installing html-pipeline 2.14.3
+-------------------------------------------------
+Thank you for installing html-pipeline!
+You must bundle Filter gem dependencies.
+See html-pipeline README.md for more details.
+https://github.com/jch/html-pipeline#dependencies
+-------------------------------------------------
+0:  html-pipeline (2.14.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/html-pipeline-2.14.3.gemspec
+Installing loofah 2.24.1
+4:  loofah (2.24.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/loofah-2.24.1.gemspec
+Fetching feedjira 4.0.1
+6:  eventmachine (1.2.7) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/eventmachine-1.2.7.gemspec
+Fetching em-websocket 0.5.3
+Installing em-websocket 0.5.3
+1:  em-websocket (0.5.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/em-websocket-0.5.3.gemspec
+Installing feedjira 4.0.1
+2:  feedjira (4.0.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/feedjira-4.0.1.gemspec
+Installing csl-styles 2.0.1
+Installing sass-embedded 1.93.3 (arm64-darwin)
+3:  sass-embedded (1.93.3) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/sass-embedded-1.93.3-arm64-darwin.gemspec
+Fetching jekyll-sass-converter 3.1.0
+Installing jekyll-sass-converter 3.1.0
+0:  jekyll-sass-converter (3.1.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-sass-converter-3.1.0.gemspec
+Fetching jekyll 4.4.1
+Installing jekyll 4.4.1
+4:  jekyll (4.4.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-4.4.1.gemspec
+Fetching jekyll-archives 2.3.0
+Fetching jekyll-diagrams 0.10.0
+Fetching jekyll-get-json 1.0.0
+Fetching jekyll-imagemagick 1.4.0
+Fetching jekyll-feed 0.17.0
+Fetching jekyll-jupyter-notebook 0.0.6
+Installing jekyll-imagemagick 1.4.0
+Installing jekyll-jupyter-notebook 0.0.6
+Installing jekyll-feed 0.17.0
+Installing jekyll-get-json 1.0.0
+3:  jekyll-get-json (1.0.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-get-json-1.0.0.gemspec
+Fetching jekyll-minifier 0.2.2
+0:  jekyll-imagemagick (1.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-imagemagick-1.4.0.gemspec
+Fetching jekyll-paginate-v2 3.0.0
+2:  jekyll-feed (0.17.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-feed-0.17.0.gemspec
+Fetching jekyll-sitemap 1.4.0
+4:  jekyll-jupyter-notebook (0.0.6) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-jupyter-notebook-0.0.6.gemspec
+Fetching jekyll-toc 0.19.0
+Installing jekyll-toc 0.19.0
+4:  jekyll-toc (0.19.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-toc-0.19.0.gemspec
+Fetching jemoji 0.13.0
+Installing jekyll-paginate-v2 3.0.0
+0:  jekyll-paginate-v2 (3.0.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-paginate-v2-3.0.0.gemspec
+Installing jekyll-sitemap 1.4.0
+Installing jekyll-minifier 0.2.2
+3:  jekyll-minifier (0.2.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-minifier-0.2.2.gemspec
+2:  jekyll-sitemap (1.4.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-sitemap-1.4.0.gemspec
+Installing jemoji 0.13.0
+4:  jemoji (0.13.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jemoji-0.13.0.gemspec
+Installing jekyll-archives 2.3.0
+6:  jekyll-archives (2.3.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-archives-2.3.0.gemspec
+7:  csl-styles (2.0.1) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/csl-styles-2.0.1.gemspec
+Fetching jekyll-scholar 7.2.2
+Installing jekyll-scholar 7.2.2
+0:  jekyll-scholar (7.2.2) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-scholar-7.2.2.gemspec
+Installing jekyll-diagrams 0.10.0
+1:  jekyll-diagrams (0.10.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/jekyll-diagrams-0.10.0.gemspec
+Installing libv8-node 24.1.0.0 (arm64-darwin)
+5:  libv8-node (24.1.0.0) from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/specifications/libv8-node-24.1.0.0-arm64-darwin.gemspec
+Fetching mini_racer 0.19.1
+Installing mini_racer 0.19.1 with native extensions
+Building native extensions. This could take a while...
+Bundler::InstallError: Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/mini_racer-0.19.1/ext/mini_racer_extension
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for -lpthread... yes
+checking for -lobjc... yes
+checking for whether -Wl,--exclude-libs=ALL  is accepted as LDFLAGS... no
+creating Makefile
+
+current directory: /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/mini_racer-0.19.1/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20251106-18522-upz8ib sitelibdir\=./.gem.20251106-18522-upz8ib clean
+
+current directory: /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/mini_racer-0.19.1/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20251106-18522-upz8ib sitelibdir\=./.gem.20251106-18522-upz8ib
+compiling mini_racer_extension.c
+In file included from mini_racer_extension.c:13:
+./serde.c:101:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    n = next_power_of_two(n);
+        ~~~~~~~~~~~~~~~~~ ^
+./serde.c:111:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    b->cap = n;
+           ~ ^
+./serde.c:402:29: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+        des_object_ref(arg, u);
+        ~~~~~~~~~~~~~~      ^
+./serde.c:576:33: warning: implicit conversion loses integer precision: 'unsigned long long' to 'int' [-Wshorten-64-to-32]
+        des_bigint(arg, *p, u, 1-2*t);
+        ~~~~~~~~~~             ~^~~~
+mini_racer_extension.c:648:23: warning: incompatible pointer types passing 'unsigned long [64]' to parameter of type 'const uint64_t *' (aka 'const unsigned long long *') [-Wincompatible-pointer-types]
+        ser_bigint(s, limbs, countof(limbs), sign);
+                      ^~~~~
+./serde.c:247:48: note: passing argument to parameter 'p' here
+static void ser_bigint(Ser *s, const uint64_t *p, size_t n, int sign)
+                                               ^
+mini_racer_extension.c:569:36: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                ser_array_begin(s, n);
+                ~~~~~~~~~~~~~~~    ^
+mini_racer_extension.c:573:34: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                ser_array_end(s, n);
+                ~~~~~~~~~~~~~    ^
+mini_racer_extension.c:575:35: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                ser_object_ref(s, FIX2LONG(id));
+                ~~~~~~~~~~~~~~    ^~~~~~~~~~~~
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic/long.h:46:22: note: expanded from macro 'FIX2LONG'
+#define FIX2LONG     RB_FIX2LONG          /**< @old{RB_FIX2LONG} */
+                     ^
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic/long.h:53:22: note: expanded from macro 'RB_FIX2LONG'
+#define RB_FIX2LONG  rb_fix2long          /**< @alias{rb_fix2long} */
+                     ^
+mini_racer_extension.c:607:39: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                    ser_object_end(s, n);
+                    ~~~~~~~~~~~~~~    ^
+mini_racer_extension.c:612:35: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                ser_object_ref(s, FIX2LONG(id));
+                ~~~~~~~~~~~~~~    ^~~~~~~~~~~~
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic/long.h:46:22: note: expanded from macro 'FIX2LONG'
+#define FIX2LONG     RB_FIX2LONG          /**< @old{RB_FIX2LONG} */
+                     ^
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic/long.h:53:22: note: expanded from macro 'RB_FIX2LONG'
+#define RB_FIX2LONG  rb_fix2long          /**< @alias{rb_fix2long} */
+                     ^
+mini_racer_extension.c:728:31: warning: implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'int' [-Wshorten-64-to-32]
+    deadline = deadline_ms(c->timeout);
+               ~~~~~~~~~~~ ~~~^~~~~~~
+mini_racer_extension.c:809:43: warning: implicit conversion loses integer precision: 'int64_t' (aka 'long long') to 'int' [-Wshorten-64-to-32]
+                deadline = deadline_ms(c->idle_gc);
+                           ~~~~~~~~~~~ ~~~^~~~~~~
+12 warnings generated.
+compiling mini_racer_v8.cc
+clang: warning: argument unused during compilation: '-rdynamic' [-Wunused-command-line-argument]
+In file included from mini_racer_v8.cc:1:
+In file included from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8.h:24:
+In file included from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-array-buffer.h:13:
+/Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-memory-span.h:45:36: error: no member named 'enable_view' in namespace 'std::ranges'
+inline constexpr bool std::ranges::enable_view<v8::MemorySpan<T>> = true;
+                      ~~~~~~~~~~~~~^
+/Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-memory-span.h:45:47: error: expected ';' at end of declaration
+inline constexpr bool std::ranges::enable_view<v8::MemorySpan<T>> = true;
+                                              ^
+                                              ;
+/Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-memory-span.h:45:47: error: expected unqualified-id
+In file included from mini_racer_v8.cc:1:
+In file included from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8.h:24:
+In file included from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-array-buffer.h:15:
+In file included from /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-platform.h:14:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:532:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:191:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:32:23: error: redefinition of 'enable_view'
+inline constexpr bool enable_view = derived_from<_Tp, view_base>;
+                      ^
+/Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/libv8-node-24.1.0.0-arm64-darwin/vendor/v8/include/v8-memory-span.h:45:36: note: previous definition is here
+inline constexpr bool std::ranges::enable_view<v8::MemorySpan<T>> = true;
+                                   ^
+4 errors generated.
+make: *** [mini_racer_v8.o] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/gems/mini_racer-0.19.1 for inspection.
+Results logged to /Users/jiuhenghe/Desktop/website/jiuhenghe.github.io/vendor/bundle/ruby/3.2.0/extensions/arm64-darwin-21/3.2.0/mini_racer-0.19.1/gem_make.out
+
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:119:in `run'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:51:in `block in make'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:43:in `each'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:43:in `make'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/ext_conf_builder.rb:41:in `build'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:187:in `build_extension'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:221:in `block in build_extensions'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:218:in `each'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/ext/builder.rb:218:in `build_extensions'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/rubygems/installer.rb:843:in `build_extensions'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/rubygems_gem_installer.rb:72:in `build_extensions'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/rubygems_gem_installer.rb:28:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/source/rubygems.rb:200:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/gem_installer.rb:54:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/gem_installer.rb:16:in `install_from_spec'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/parallel_installer.rb:156:in `do_install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/parallel_installer.rb:147:in `block in worker_pool'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/worker.rb:62:in `apply_func'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/worker.rb:57:in `block in process_queue'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/worker.rb:54:in `loop'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/worker.rb:54:in `process_queue'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/worker.rb:90:in `block (2 levels) in create_threads'
+
+An error occurred while installing mini_racer (0.19.1), and Bundler cannot continue.
+
+In Gemfile:
+  mini_racer
+
+/Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/parallel_installer.rb:190:in `handle_error'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/parallel_installer.rb:96:in `call'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer/parallel_installer.rb:67:in `call'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer.rb:244:in `install_in_parallel'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer.rb:201:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer.rb:89:in `block in run'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/process_lock.rb:12:in `block in lock'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/process_lock.rb:9:in `open'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/process_lock.rb:9:in `lock'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer.rb:71:in `run'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/installer.rb:23:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/cli/install.rb:62:in `run'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/cli.rb:261:in `block in install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/settings.rb:131:in `temporary'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/cli.rb:260:in `install'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/cli.rb:34:in `dispatch'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/cli.rb:28:in `start'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/bundler-2.4.10/libexec/bundle:45:in `block in <top (required)>'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/3.2.0/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/lib/ruby/gems/3.2.0/gems/bundler-2.4.10/libexec/bundle:33:in `<top (required)>'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/bin/bundle:25:in `load'
+  /Users/jiuhenghe/.rvm/rubies/ruby-3.2.2/bin/bundle:25:in `<main>'
+  /Users/jiuhenghe/.rvm/gems/ruby-3.2.2/bin/ruby_executable_hooks:22:in `eval'
+  /Users/jiuhenghe/.rvm/gems/ruby-3.2.2/bin/ruby_executable_hooks:22:in `<main>'

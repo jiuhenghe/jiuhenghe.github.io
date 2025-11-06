@@ -18,3 +18,36 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+.about-hero {
+  display: flex;
+  flex-direction: row;   /* 文字在左、图片在右：见下方 order 设置 */
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: nowrap;     /* 不允许文字掉到图片下方 */
+}
+
+/* 文字区：占满剩余空间，并允许正常换行 */
+.about-hero .about-text {
+  flex: 1 1 auto;
+  min-width: 0;          /* 防止被长单词撑裂 */
+  white-space: normal;
+  word-break: normal;
+}
+
+/* 图片区：固定宽度，不挤压文本 */
+.about-hero .profile {
+  flex: 0 0 280px;       /* 头像区域宽度，可改 240/300 */
+  margin: 0;             /* 清除可能的外边距干扰 */
+  order: 2;              /* 确保图片在右侧（profile 在第二列） */
+}
+
+/* 保证图片自适应，不跑版 */
+.about-hero .profile img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+  
