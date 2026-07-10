@@ -28,4 +28,4 @@ My current research launches a new project on **prompt engineering**. I study pr
 
 **Recent publication:** He, J. (2026). Redefining human Go experts in the post-AI era: Perspectives from the sociology of professions and expertise. *Big Data & Society*, 13(2), 20539517261465667. <a href='assets/pdf/He-2026-Redefining-Go-experts-post-AI-era.pdf'>[PDF]</a>
 
-Please find my <a href='assets/pdf/CV.pdf'>CV</a> here (Updated Sept.2025)
+Please find my <a href='assets/pdf/CV.pdf'>CV</a> here (Updated Jul. 2026)
